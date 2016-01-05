@@ -5,13 +5,8 @@ body, header, ul, li, a, h3, p, ol, img, main, section, aside, footer {
 }
 
 body {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#207cca+45,84cc7c+100 */
-	background: #207cca; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #207cca 45%, #84cc7c 100%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover,  #207cca 45%,#84cc7c 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center,  #207cca 45%,#84cc7c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#84cc7c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	background-size: 100% 22%;
+	background-image: url("../img/background_blue.jpg");
+	background-size: 100% 250px;
 	background-repeat: no-repeat;
 }
 
