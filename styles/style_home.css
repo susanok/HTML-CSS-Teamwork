@@ -103,7 +103,6 @@ html body div#wrapper main article div{
 	align-items: center;
 }
 html body div#wrapper main article div img{
-	width:100%;
 	height: auto;
 	margin-top: 20px;
 	border-bottom: 5px solid #EBA71B;
@@ -232,6 +231,10 @@ footer p {
 	h3 {
 		font-size: 2.5em;
 	}
+	html body div#wrapper main article div img{
+		width:100%;
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -246,6 +249,11 @@ footer p {
 
 	h3 {
 		font-size: 2em;
+	}
+
+	html body div#wrapper main article div img{
+		width:100%;
+		height: auto;
 	}
 }
 
