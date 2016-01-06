@@ -91,3 +91,70 @@ button p{
     margin:5px;
     text-align: left;
 }
+
+@media screen and (max-width: 1260px) {
+    body {
+        font-size: 16px;
+    }
+
+    button {
+        width: 22%;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 830px){
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        width: 24%;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    body {
+        font-size: 12px;
+    }
+
+    button {
+        width: 26%;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 550px){
+    body {
+        font-size: 10px;
+    }
+
+    button {
+        width: 28%;
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 470px){
+    body {
+        font-size: 8px;
+    }
+
+    button {
+        width: 30%;
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 380px){
+    body {
+        font-size: 6px;
+    }
+
+    button {
+        width: 32%;
+        font-size: 1.9em;
+    }
+}
+
