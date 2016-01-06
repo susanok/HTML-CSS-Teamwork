@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style_index.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div>
+                <img src="img/university-bg.png" alt="Softuni-logo">
+                <h1>СофтУникати</h1>
+                <button id="button">Не цъкай!</button>
+            </div>
+        </header>
+            <footer>
+                <div class="rights">
+                    <h3>софтуникати екип</h3>
+                    <span>&copy; софтуникати 2016-2016. Всички права изгубени</span>
+                </div>
+        </footer>
+    </div>
+    <script>
+        var clickCount = 0;
+        var out = document.getElementById("button");
+        out.addEventListener('click', dontClick);
+        function dontClick() {
+            clickCount++;
+            switch (clickCount) {
+                case 1:
+                    out.innerHTML = 'Защо цъкна?';
+                    break;
+                case 2:
+                    out.innerHTML = 'Не бе!';
+                    break;
+                case 3:
+                    out.innerHTML = 'Спри';
+                    break;
+                case 4:
+                    out.innerHTML = 'Окей...влизай!';
+                    break;
+                default:
+                    window.location='home.html';
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

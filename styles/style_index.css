@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Kosta;
+    src: url("../resources/Calligrapher%20Regular.ttf");
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: Verdana, Calibri, Serif;
+    font-size: 18px;
+    background-image: url("../img/background_blue.jpg");
+}
+#wrapper{
+    height: 100%;
+}
+#wrapper header div {
+    width:80%;
+    height:100%;
+    margin:30px auto;
+    text-align: center;
+}
+img {
+    height:200px;
+    margin-right: 40px;
+}
+h1{
+    font-family: Kosta;
+    font-size: 5em;
+    color: #EBA71B;
+    text-shadow: 4px 3px 0 rgb(144, 84, 0);
+    margin: 25px 0;
+}
+button{
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 1.6em;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top:60px;
+    height: 60px;
+    width: 20%;
+    background: #905400;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eba61b), to(#905400));
+    background: -webkit-linear-gradient(top, #eba61b, #905400);
+    background: -moz-linear-gradient(top, #eba61b, #905400);
+    background: -ms-linear-gradient(top, #eba61b, #905400);
+    background: -o-linear-gradient(top, #eba61b, #905400);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px white solid;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: 3px 3px 5px rgb(144, 84, 0);
+}
+button:hover{
+    background: #905400;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eba61b), to(#905400));
+    background: -webkit-linear-gradient(top, #eba61b, #7a3b00);
+    background: -moz-linear-gradient(top, #eba61b, #7A3B00);
+    background: -ms-linear-gradient(top, #eba61b, #7A3B00);
+    background: -o-linear-gradient(top, #eba61b, #7A3B00);
+}
+button:active{
+    background: #7A3B00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d7921b), to(#713800));
+    background: -webkit-linear-gradient(top, #d7921b, #713800);
+    background: -moz-linear-gradient(top, #d7921b, #713800);
+    background: -ms-linear-gradient(top, #d7921b, #713800);
+    background: -o-linear-gradient(top, #d7921b, #713800);
+}
+button p{
+    margin: 0px;
+    padding:0px;
+}
+#wrapper footer{
+    font-size: 0.8em;
+    color: rgb(69, 69, 90);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display:block;
+    margin-bottom: 10px;
+}
+#wrapper footer  h3{
+
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#wrapper footer div.rights h3{
+    margin:5px;
+    text-align: left;
+}
