@@ -49,7 +49,7 @@ header > div {
 
 .left-menu {
     float: left;
-    border-right: 2px solid #EBA71B;
+    border-left: 2px solid #EBA71B;
     border-bottom: 2px solid #EBA71B;
     border-radius: 3px;
 
@@ -60,6 +60,7 @@ header > div {
     border-right: 2px solid #EBA71B;
     border-bottom: 2px solid #EBA71B;
     border-radius: 3px;
+    text-align: right;
 }
 
 header ul li {
@@ -165,15 +166,40 @@ footer p {
 
     .menu {
         float: none;
-        background-color: #1F4668;
         margin: 0 auto;
         width: 500px;
         display: block;
         margin-bottom: 20px;
-        border-right: 2px solid darkblue;
-        border-bottom: 2px solid darkblue;
-        border-radius: 3px;
+        background: #905400;
+        background: -webkit-gradient(linear, left top, left bottom, from(#eba61b), to(#905400));
+        background: -webkit-linear-gradient(top, #eba61b, #905400);
+        background: -moz-linear-gradient(top, #eba61b, #905400);
+        background: -ms-linear-gradient(top, #eba61b, #905400);
+        background: -o-linear-gradient(top, #eba61b, #905400);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border:3px #1F4668 solid;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: 3px 3px 5px rgb(144, 84, 0);
         text-align: center;
+    }
+    .menu:hover{
+        background: #905400;
+        background: -webkit-gradient(linear, left top, left bottom, from(#eba61b), to(#905400));
+        background: -webkit-linear-gradient(top, #eba61b, #7a3b00);
+        background: -moz-linear-gradient(top, #eba61b, #7A3B00);
+        background: -ms-linear-gradient(top, #eba61b, #7A3B00);
+        background: -o-linear-gradient(top, #eba61b, #7A3B00);
+    }
+    .menu:active{
+        background: #7A3B00;
+        background: -webkit-gradient(linear, left top, left bottom, from(#d7921b), to(#713800));
+        background: -webkit-linear-gradient(top, #d7921b, #713800);
+        background: -moz-linear-gradient(top, #d7921b, #713800);
+        background: -ms-linear-gradient(top, #d7921b, #713800);
+        background: -o-linear-gradient(top, #d7921b, #713800);
     }
 
     .first-btn {
